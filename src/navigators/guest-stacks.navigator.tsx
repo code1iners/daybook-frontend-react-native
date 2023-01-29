@@ -9,9 +9,7 @@ export default function GuestStacks() {
   return (
     <Stack.Navigator
       initialRouteName={SCREEN_NAMES.AUTH.SIGN_IN}
-      screenOptions={{
-        headerShown: false,
-      }}
+      screenOptions={{ headerShown: false, presentation: "modal" }}
     >
       <Stack.Screen name={SCREEN_NAMES.AUTH.SIGN_IN} component={SignInScreen} />
       <Stack.Screen name={SCREEN_NAMES.AUTH.SIGN_UP} component={SignUpScreen} />
