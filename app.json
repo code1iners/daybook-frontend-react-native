@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "daybook-frontend-react-native",
+    "slug": "daybook-frontend-react-native",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "daybook-frontend-react-native"
+}
